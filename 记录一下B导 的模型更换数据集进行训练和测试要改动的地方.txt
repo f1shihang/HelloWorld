@@ -1,0 +1,8 @@
+训练时要改动的地方：
+	①首先数据集的文件夹名称要改，将RSOD_VOC2007改成VOC_2007
+	②利用VOC_annotation生成2007_train.txt和2007_val.txt并将其修改为RSOD_train.txt
+		运行该py文件之前需要修改classes_path的参数。以及从.tiff修改为.jpg
+	③修改train.py文件中的 classes_path    = 'model_data/Solar_classes.txt'-->RSOD_classes.txt
+	④修改train.py文件中的train_annotation_path   = '2007_train.txt'和val_annotation_path     = '2007_val.txt'
+	⑤修改get_map.py中的 classes_path    = 'model_data/Solar_classes.txt'。
+	⑥修改get_map.py中的.tiff为.jpg
