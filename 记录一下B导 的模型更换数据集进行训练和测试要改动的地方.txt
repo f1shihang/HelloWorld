@@ -1,3 +1,4 @@
+feature分支进行修改尝试  
 训练时要改动的地方：
 	①首先数据集的文件夹名称要改，将RSOD_VOC2007改成VOC_2007
 	②利用VOC_annotation生成2007_train.txt和2007_val.txt并将其修改为RSOD_train.txt
